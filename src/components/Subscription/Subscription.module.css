@@ -1,0 +1,49 @@
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 5.65rem;
+}
+
+.col {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5.23rem;
+}
+
+.text {
+    color: #21201F;
+    font-family: YSBlack, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    width: 26.1875rem;
+}
+
+.img {
+    position: absolute;
+}
+
+.ellipse {
+    position: absolute;
+    width: 25.79894rem;
+    height: 23.06513rem;
+    transform: rotate(-140.03deg);
+    flex-shrink: 0;
+    border-radius: 25.79894rem;
+    opacity: 0.29;
+    background: #8241EF;
+    filter: blur(100px);
+
+    top: 7rem;
+    left: 3rem;
+}

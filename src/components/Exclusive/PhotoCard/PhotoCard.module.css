@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    width: 28.4375rem;
+    height: 28.4375rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 4rem;
+    background: #DEDEDE;
+
+    overflow: hidden;
+    transform: rotate(2deg);
+}
+
+.img {
+    transform: rotate(-2deg);
+}
+
+.cardBlock {
+    position: relative;
+}

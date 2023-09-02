@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'YSRegular', sans-serif;
+    src: url('res/font/text-regular.woff');
+}
+
+@font-face {
+    font-family: 'YSBlack', sans-serif;
+    src: url('res/font/text-black.woff');
+}
+
+@font-face {
+    font-family: 'YSMedium';
+    src: url('res/font/text-medium.woff');
+}
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFF;
+    font-family: YSMedium, sans-serif;
+    padding-top: 7.81rem;
+    padding-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: max(2rem, 3vw) max(2rem, 3vw) max(4.5rem, 6vw) max(2rem, 3vw);
+    }
+}

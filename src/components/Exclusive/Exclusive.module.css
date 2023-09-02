@@ -1,0 +1,33 @@
+.text {
+    color: #21201F;
+    font-family: YSMedium, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 1.8rem */
+    width: 27.625rem;
+
+    margin-top: 3rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardTable {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    position: relative;
+}
+
+.col1 {
+    margin-top: 4.32rem;
+}
+
+.col2 {
+    transform: translateY(calc(-13.1875rem + 4.32rem));
+}

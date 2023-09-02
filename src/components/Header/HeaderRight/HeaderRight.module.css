@@ -1,0 +1,21 @@
+.headerRight {
+    position: absolute;
+    bottom: -2.19rem;
+    left: 20rem;
+    z-index: 1;
+}
+
+.ellipse {
+    position: absolute;
+    left: 18.53rem;
+    bottom: 8.27rem;
+
+    width: 41.1125rem;
+    height: 25.11894rem;
+    transform: rotate(-140.03deg);
+    flex-shrink: 0;
+    border-radius: 41.1125rem;
+    opacity: 0.5;
+    background: #8241EF;
+    filter: blur(100px);
+}

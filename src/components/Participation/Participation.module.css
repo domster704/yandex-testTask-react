@@ -1,0 +1,25 @@
+.textHeader {
+    color: #21201F;
+    font-family: YSBlack, sans-serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.07rem;
+    /*width: max(19.4375rem, 51.6875vw);*/
+    width: 51.6875rem;
+
+    margin-bottom: 3rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
+.allRow {
+    display: flex;
+    flex-direction: column;
+    gap: 3.81rem;
+}

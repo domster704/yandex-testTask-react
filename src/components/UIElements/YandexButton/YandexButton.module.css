@@ -1,0 +1,22 @@
+.yaButton {
+    display: inline-flex;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    gap: 0.25rem;
+
+    border-radius: 2.25rem;
+    background: #FFDE40;
+    box-shadow: 0 4px 98px 0 rgba(255, 222, 64, 0.59);
+
+    color: #21201F;
+    text-align: right;
+    font-family: YSMedium, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+}
+
+.yaButton:hover {
+    cursor: pointer;
+}

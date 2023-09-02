@@ -1,0 +1,75 @@
+.headerLeft {
+    position: relative;
+    z-index: 3;
+}
+
+.headerLeftImg {
+    margin-bottom: max(2rem, 4.5vw);
+    width: max(7.02194rem, 11vw);
+    height: max(2rem, 3.13306vw);
+}
+
+.headerLeftText {
+    color: #21201F;
+    font-family: YSBlack, sans-serif;
+    font-size: max(2.25rem, 4.5vw);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.09rem;
+    width: 26.25rem;
+
+    margin-bottom: 3rem;
+}
+
+.headerLeftAbo {
+    margin-bottom: 2.75rem;
+
+    color: #21201F;
+    font-family: YSMedium, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+
+    width: 29.0625rem;
+    display: -moz-inline-stack;
+}
+
+.headerLeftSum {
+    max-height: 2.0625rem;
+    display: flex;
+    flex-direction: row;
+        width: calc(2.875rem + 4.9375rem + 1.5rem);
+
+    border-radius: 31.25rem;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    margin-left: .2rem;
+}
+
+.headerLeftFinal {
+    display: inline-flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 31.25rem;
+    background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+}
+
+.headerLeftCrossOut {
+    color: #808080;
+    font-family: YSMedium, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+
+    padding: 0.69rem 0.75rem;
+
+    display: inline-flex;
+    align-items: center;
+
+    text-decoration-color: #808080;
+}
