@@ -1,13 +1,11 @@
 import React from 'react';
 import HeaderLeft from "./HeaderLeft/HeaderLeft";
-import HeaderRight from "./HeaderRight/HeaderRight";
+import s from '../../style/margin.module.css'
 
-const Header = ({bottom}) => {
+const Header = () => {
     return (
-        <div style={{marginBottom: bottom}}>
-            <HeaderLeft>
-                <HeaderRight />
-            </HeaderLeft>
+        <div className={s.mainBlockMarginBottom}>
+            <HeaderLeft/>
         </div>
     );
 };

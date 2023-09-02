@@ -1,14 +1,14 @@
 .headerRight {
     position: absolute;
-    bottom: -2.19rem;
-    left: 20rem;
+    top: -8rem;
+    left: 18rem;
     z-index: 1;
 }
 
 .ellipse {
     position: absolute;
-    left: 18.53rem;
-    bottom: 8.27rem;
+    top: -8rem;
+    left: 18rem;
 
     width: 41.1125rem;
     height: 25.11894rem;
@@ -19,3 +19,29 @@
     background: #8241EF;
     filter: blur(100px);
 }
+
+.img {
+    position: static;
+    width: 46.5rem;
+    height: 38.625rem;
+}
+
+/*@media (max-width: 1110px) {*/
+/*    .ellipse {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .headerRight {*/
+/*        position: static;*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*        width: 46.5vw;*/
+/*        height: 38.625vw;*/
+/*    }*/
+
+/*    .img {*/
+/*        position: static;*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*    }*/
+/*}*/

@@ -13,12 +13,13 @@ import geoImg from '../../res/image/Geo.png';
 import clipImg from '../../res/image/Clip.png';
 import coffeeImg from '../../res/image/Coffee.png';
 
+import margin from '../../style/margin.module.css'
 
 import PhotoCardExtra from "./PhotoCardExtra/PhotoCardExtra";
 
 const Exclusive = ({bottom}) => {
     return (
-        <div style={{marginBottom: bottom}}>
+        <div className={margin.mainBlockMarginBottom} style={{marginBottom: bottom}}>
             <Caption>Эксклюзивный доступ к событиям Самокатов</Caption>
             <div className={s.text}>
                 С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы

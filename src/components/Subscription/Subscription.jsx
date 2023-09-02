@@ -7,9 +7,11 @@ import YandexButton from "../UIElements/YandexButton/YandexButton";
 import scooterImg1 from '../../res/image/scooter2.png';
 import scooterImgLover from '../../res/image/scooterLover.png';
 
+import margin from '../../style/margin.module.css'
+
 const Subscription = ({bottom}) => {
     return (
-        <div className={s.mainBlock} style={{marginBottom: bottom}}>
+        <div className={s.mainBlock + " " + margin.mainBlockMarginBottom} style={{marginBottom: bottom}}>
             <div className={s.col}>
                 <Caption width={"25.4375rem"}>Купить абонемент и вступить в клуб смогут те, кто в Плюсе</Caption>
                 <div className={s.text}>За каждую поездку на самокатах такие пользователи получают кешбэк баллами.

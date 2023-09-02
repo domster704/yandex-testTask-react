@@ -7,9 +7,11 @@ import threeScootersSVG from '../../res/image/3Scooter.svg';
 import timerSVG from '../../res/image/Timer.svg';
 import energySVG from '../../res/image/0R.svg';
 
+import margin from '../../style/margin.module.css'
+
 const Participation = ({bottom}) => {
     return (
-        <div style={{marginBottom: bottom}}>
+        <div className={margin.mainBlockMarginBottom} style={{marginBottom: bottom}}>
             <div className={s.textHeader}>Вот что даёт участие в клубе</div>
             <div className={s.allRow}>
                 <div className={s.row}>
