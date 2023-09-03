@@ -2,6 +2,7 @@ import React from 'react';
 import s from './HeaderLeft.module.css'
 import YandexButton from "../../UIElements/YandexButton/YandexButton";
 import HeaderRight from "../HeaderRight/HeaderRight";
+import YandexText from "../../UIElements/YandexText/YandexText";
 
 const HeaderLeft = () => {
     return (
@@ -25,13 +26,13 @@ const HeaderLeft = () => {
             <div className={s.headerLeftText}>
                 <div style={{zIndex: 10, position: "relative"}}>Вступайте в клуб Самокатов</div>
                 <div className={s.desk}>
-                    <HeaderRight />
+                    <HeaderRight/>
                 </div>
             </div>
             <div className={s.headerLeftAbo}>
-                Купите абонемент, чтобы стать частью клуба в новом сезоне–2024.
+                <YandexText>Купите абонемент, чтобы стать частью клуба в новом сезоне–2024.</YandexText>
                 <div style={{display: "flex"}}>
-                    <div> 8 месяцев за</div>
+                    <YandexText>8 месяцев за</YandexText>
                     <div className={s.headerLeftSum}>
                         <div className={s.headerLeftFinal}>
                             499₽
@@ -43,7 +44,7 @@ const HeaderLeft = () => {
                 </div>
             </div>
             <div className={s.mob}>
-                <HeaderRight />
+                <HeaderRight/>
             </div>
             <div className={s.desk}>
                 <YandexButton>Стать частью клуба</YandexButton>

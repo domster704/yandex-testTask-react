@@ -1,25 +1,24 @@
 .textHeader {
     color: #21201F;
     font-family: YSBlack, sans-serif;
-    font-size: 3.5rem;
+    font-size: calc(3.5rem * 0.5 + 3.5vw * 0.5);
     font-style: normal;
     font-weight: 900;
     line-height: 100%;
     letter-spacing: -0.07rem;
-    /*width: max(19.4375rem, 51.6875vw);*/
-    width: 51.6875rem;
+    width: calc(51.6875rem * 0.5 + 51.6875 * 0.5);
 
-    margin-bottom: 3rem;
+    margin-bottom: calc(3rem * 0.5 + 3vw * 0.5);
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    gap: 7rem;
+    gap: calc(7rem * 0.5 + 7vw * 0.5);
 }
 
 .allRow {
     display: flex;
     flex-direction: column;
-    gap: 3.81rem;
+    gap: calc(3.81rem * 0.5 + 3.81vw * 0.5);
 }

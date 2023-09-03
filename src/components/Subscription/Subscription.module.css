@@ -1,14 +1,14 @@
 .mainBlock {
     display: flex;
     flex-direction: column;
-    gap: 5.65rem;
+    gap: calc(5.65rem * 0.5 + 5.65vw * 0.5);
 }
 
 .col {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 3rem;
+    gap: calc(3rem * 0.5 + 3vw * 0.5);
 
     position: relative;
 }
@@ -16,17 +16,11 @@
 .row {
     display: flex;
     flex-direction: row;
-    gap: 5.23rem;
+    gap: calc(5.23rem * 0.5 + 5.23vw * 0.5);
 }
 
-.text {
-    color: #21201F;
-    font-family: YSBlack, sans-serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    width: 26.1875rem;
+.textBlock {
+    width: calc(26.1875rem * 0.5 + 26.1875vw * 0.5);
 }
 
 .img {
@@ -35,8 +29,8 @@
 
 .ellipse {
     position: absolute;
-    width: 25.79894rem;
-    height: 23.06513rem;
+    width: calc(25.79894rem * 0.5 + 25.79894vw * 0.5);
+    height: calc(23.06513rem * 0.5 + 23.06513vw * 0.5);
     transform: rotate(-140.03deg);
     flex-shrink: 0;
     border-radius: 25.79894rem;
@@ -44,6 +38,6 @@
     background: #8241EF;
     filter: blur(100px);
 
-    top: 7rem;
-    left: 3rem;
+    top: calc(7rem * 0.5 + 7vw * 0.5);
+    left: calc(3rem * 0.5 + 3vw * 0.5);
 }

@@ -32,6 +32,6 @@ body {
 
 @media (max-width: 500px) {
     body {
-        padding: max(2rem, 3vw) max(2rem, 3vw) max(4.5rem, 6vw) max(2rem, 3vw);
+        padding: 2rem 2rem 4.5rem 2rem;
     }
 }

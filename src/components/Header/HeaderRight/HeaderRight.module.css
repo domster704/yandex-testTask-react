@@ -1,17 +1,17 @@
 .headerRight {
     position: absolute;
-    top: -8rem;
-    left: 18rem;
+    top: calc(-8rem * 0.5 + -8vw * 0.5);
+    left: calc(18rem * 0.5 + 18vw * 0.5);
     z-index: 1;
 }
 
 .ellipse {
     position: absolute;
-    top: -8rem;
-    left: 18rem;
+    top: calc(-8rem * 0.5 + -8vw * 0.5);
+    left: calc(18rem * 0.5 + 18vw * 0.5);
 
-    width: 41.1125rem;
-    height: 25.11894rem;
+    width: calc(41.1125rem * 0.5 + 41.1125vw * 0.5);
+    height: calc(25.11894rem * 0.5 + 25.11894vw * 0.5);
     transform: rotate(-140.03deg);
     flex-shrink: 0;
     border-radius: 41.1125rem;
@@ -22,8 +22,8 @@
 
 .img {
     position: static;
-    width: 46.5rem;
-    height: 38.625rem;
+    width: calc(46.5rem * 0.5 + 46.5vw * 0.5);
+    height: calc(38.625rem * 0.5 + 38.625vw * 0.5);
 }
 
 /*@media (max-width: 1110px) {*/

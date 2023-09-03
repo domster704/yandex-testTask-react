@@ -1,12 +1,12 @@
 .card {
     display: flex;
-    width: 28.4375rem;
-    height: 28.4375rem;
+    width: calc(28.4375rem * 0.5 + 28.4375vw * 0.5);
+    height: calc(28.4375rem * 0.5 + 28.4375vw * 0.5);
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
 
-    border-radius: 4rem;
+    border-radius: calc(4rem * 0.5 + 4vw * 0.5);
     background: #DEDEDE;
 
     overflow: hidden;
@@ -15,6 +15,8 @@
 
 .img {
     transform: rotate(-2deg);
+    width: calc(30rem * 0.5 + 30vw * 0.5);
+    height: calc(30rem * 0.5 + 30vw * 0.5);
 }
 
 .cardBlock {

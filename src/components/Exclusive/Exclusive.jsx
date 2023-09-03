@@ -16,15 +16,17 @@ import coffeeImg from '../../res/image/Coffee.png';
 import margin from '../../style/margin.module.css'
 
 import PhotoCardExtra from "./PhotoCardExtra/PhotoCardExtra";
+import YandexText from "../UIElements/YandexText/YandexText";
 
-const Exclusive = ({bottom}) => {
+const Exclusive = () => {
     return (
-        <div className={margin.mainBlockMarginBottom} style={{marginBottom: bottom}}>
+        <div className={margin.mainBlockMarginBottom}>
             <Caption>Эксклюзивный доступ к событиям Самокатов</Caption>
-            <div className={s.text}>
-                С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году мы
-                танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de
-                Panique
+            <div className={s.textBlock}>
+                <YandexText>С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч. В 2023 году
+                    мы
+                    танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор
+                    Attaque de Panique</YandexText>
             </div>
 
             <div className={s.cardTable}>

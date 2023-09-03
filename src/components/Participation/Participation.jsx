@@ -9,9 +9,9 @@ import energySVG from '../../res/image/0R.svg';
 
 import margin from '../../style/margin.module.css'
 
-const Participation = ({bottom}) => {
+const Participation = () => {
     return (
-        <div className={margin.mainBlockMarginBottom} style={{marginBottom: bottom}}>
+        <div className={margin.mainBlockMarginBottom}>
             <div className={s.textHeader}>Вот что даёт участие в клубе</div>
             <div className={s.allRow}>
                 <div className={s.row}>

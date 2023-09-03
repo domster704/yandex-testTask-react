@@ -1,9 +1,10 @@
 .block {
-    width: 56.625rem;
+    width: calc(56.625rem * 0.5 + 56.625vw * 0.5);
     color: #C5C5C5;
     font-family: YSRegular, sans-serif;
-    font-size: 0.8125rem;
+    font-size: calc(0.8125rem * 0.5 + 0.8125vw * 0.5);
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+    margin: 0 auto;
 }

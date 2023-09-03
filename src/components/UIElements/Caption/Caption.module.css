@@ -1,11 +1,11 @@
 .caption {
     color: #21201F;
     font-family: YSBlack, sans-serif;
-    font-size: 3rem;
+    font-size: calc(3rem * 0.5 + 3vw * 0.5);
     font-style: normal;
     font-weight: 900;
     line-height: 100%;
     letter-spacing: -0.06rem;
 
-    max-width: 51.6875rem;
+    max-width: min(calc(51.6875rem * 0.5 + 51.6875vw * 0.5), 51.6875rem);
 }
