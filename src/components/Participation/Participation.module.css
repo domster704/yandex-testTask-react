@@ -22,3 +22,11 @@
     flex-direction: column;
     gap: calc(3.81rem * 0.5 + 3.81vw * 0.5);
 }
+
+@media (max-width: 770px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: calc(3.81rem * 0.5 + 3.81vw * 0.5);
+    }
+}

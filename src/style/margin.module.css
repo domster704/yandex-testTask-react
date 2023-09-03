@@ -1,3 +1,9 @@
 .mainBlockMarginBottom {
     margin-bottom: calc(8rem * 0.5 + 8vw * 0.5);
 }
+
+@media (max-width: 770px) {
+    .mainBlockMarginBottom {
+        margin-bottom: calc(4rem * 0.5 + 4vw * 0.5);
+    }
+}

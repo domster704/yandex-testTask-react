@@ -24,3 +24,17 @@
 .col2 {
     transform: translateY(calc(calc(-13.1875rem * 0.5 + -13.1875vw * 0.5) + calc(4.32rem * 0.5 + 4.32vw * 0.5)));
 }
+
+@media (max-width: 770px) {
+    .cardTable {
+        flex-direction: column;
+    }
+
+    .col2 {
+        transform: none;
+    }
+
+    .textBlock {
+        width: unset;
+    }
+}

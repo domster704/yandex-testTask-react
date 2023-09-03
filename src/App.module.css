@@ -1,0 +1,24 @@
+.block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 200vw;
+
+    z-index: -1;
+    opacity: 0.22;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), linear-gradient(90deg, #FF5C4D 0%, #EB469F 25%, #8341EF 72%, #3F68F9 100%);
+}
+
+.mob {
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .mob {
+        display: block;
+    margin: 0 2rem 2rem 2rem;
+    left: 0;
+    bottom: 0;
+    }
+}

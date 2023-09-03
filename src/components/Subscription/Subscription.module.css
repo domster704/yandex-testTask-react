@@ -13,10 +13,8 @@
     position: relative;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    gap: calc(5.23rem * 0.5 + 5.23vw * 0.5);
+.col2 {
+    margin-left: calc(39 * 0.5rem + 30 * 0.5vw);
 }
 
 .textBlock {
@@ -40,4 +38,41 @@
 
     top: calc(7rem * 0.5 + 7vw * 0.5);
     left: calc(3rem * 0.5 + 3vw * 0.5);
+}
+
+.desk {
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .img {
+        position: static;
+        align-self: center;
+    }
+
+    .ellipse {
+        top: unset;
+        bottom: 0;
+        left: 20%;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .col2 {
+        margin-left: 0;
+    }
+
+    .textBlock {
+        width: unset;
+    }
 }

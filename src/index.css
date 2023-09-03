@@ -34,3 +34,10 @@ body {
     justify-content: center;
     align-content: center;
 }
+
+@media (max-width: 770px) {
+    body {
+        padding-left: calc(4rem * 0.5 + 4vw * 0.5);
+        padding-right: calc(4rem * 0.5 + 4vw * 0.5);
+    }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import HeaderLeft from "./HeaderLeft/HeaderLeft";
-import s from '../../style/margin.module.css'
+import margin from '../../style/margin.module.css'
 
 const Header = () => {
     return (
-        <div className={s.mainBlockMarginBottom}>
+        <div className={margin.mainBlockMarginBottom}>
             <HeaderLeft/>
         </div>
     );

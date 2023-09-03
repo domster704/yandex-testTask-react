@@ -79,24 +79,11 @@
     display: none;
 }
 
-/*@media (max-width: 1110px) {*/
-/*    .desk {*/
-/*        display: none;*/
-/*    }*/
-/*    .mob {*/
-/*        display: block;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 1110px) {*/
-/*    .headerLeftImg {*/
-/*        margin-bottom: calc(4.5rem * 1vw / 16);*/
-/*        width: calc(11rem * 1vw / 16);*/
-/*        height: max(2rem, 3.13306vw);*/
-/*    }*/
-
-/*    .headerLeftText {*/
-/*        font-size: max(2.25rem, 4.5vw);*/
-/*        width: 26.25rem;*/
-/*    }*/
-/*}*/
+@media (max-width: 780px) {
+    .desk {
+        display: none;
+    }
+    .mob {
+        display: block;
+    }
+}

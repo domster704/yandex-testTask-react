@@ -8,3 +8,9 @@
     line-height: 120%;
     margin: 0 auto;
 }
+
+@media (max-width: 770px) {
+    .block {
+        width: calc(56.625rem * 0.15 + 56.625vw * 0.85)
+    }
+}

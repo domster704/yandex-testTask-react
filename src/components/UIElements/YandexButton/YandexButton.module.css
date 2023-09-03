@@ -10,6 +10,7 @@
 
     color: #21201F;
     text-align: right;
+    justify-content: center;
     font-family: YSMedium, sans-serif;
     font-size: calc(1.5rem * 0.5 + 1.5vw * 0.5);
     font-style: normal;
@@ -19,4 +20,15 @@
 
 .yaButton:hover {
     cursor: pointer;
+}
+
+.butFixed {
+    width: calc(100vw - 4rem) !important;
+}
+
+@media (max-width: 770px) {
+    .yaButton {
+        align-self: center;
+        width: 100%;
+    }
 }

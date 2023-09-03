@@ -43,11 +43,11 @@ const HeaderLeft = () => {
                     </div>
                 </div>
             </div>
-            <div className={s.mob}>
-                <HeaderRight/>
-            </div>
             <div className={s.desk}>
                 <YandexButton>Стать частью клуба</YandexButton>
+            </div>
+            <div className={s.mob}>
+                <HeaderRight/>
             </div>
         </div>
     );
