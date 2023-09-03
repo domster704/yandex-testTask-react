@@ -5,7 +5,7 @@ module.exports = {
         extensions: ['.js', '.jsx', ".*"]
     },
     entry: "./src/index.js",
-    mode: "development",
+    mode: "production",
     output: {
         path: path.join(__dirname, 'build'),
         filename: "main.bundle.js"
