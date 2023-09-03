@@ -46,10 +46,10 @@
 
 .headerLeftFinal {
     display: inline-flex;
-    padding: 0.5rem 0.75rem;
+    padding: calc(0.5rem * 0.5 + 0.5vw * 0.5) calc(0.75rem * 0.5 + 0.75vw * 0.5);
     justify-content: center;
     align-items: center;
-    gap: 0.625rem;
+    gap: calc(0.625rem * 0.5 + 0.625vw * 0.5);
 
     border-radius: 31.25rem;
     background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
@@ -58,12 +58,12 @@
 .headerLeftCrossOut {
     color: #808080;
     font-family: YSMedium, sans-serif;
-    font-size: 1rem;
+    font-size: calc(1rem * 0.5 + 1vw * 0.5);
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
 
-    padding: 0.69rem 0.75rem;
+    padding: calc(0.69rem * 0.5 + 0.69vw * 0.5) calc(0.75rem * 0.5 + 0.75vw * 0.5);
 
     display: inline-flex;
     align-items: center;

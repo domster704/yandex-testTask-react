@@ -35,7 +35,7 @@ const HeaderLeft = () => {
                     <YandexText>8 месяцев за</YandexText>
                     <div className={s.headerLeftSum}>
                         <div className={s.headerLeftFinal}>
-                            499₽
+                            <YandexText>499₽</YandexText>
                         </div>
                         <div className={s.headerLeftCrossOut}>
                             3190₽
