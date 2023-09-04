@@ -2,8 +2,8 @@
     position: absolute;
 }
 
-@media (max-width: 865px) {
-    .card {
-        display: none;
-    }
-}
+/*@media (max-width: 865px) {*/
+/*    .card {*/
+/*        display: none;*/
+/*    }*/
+/*}*/

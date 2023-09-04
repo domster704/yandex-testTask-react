@@ -25,16 +25,65 @@
     transform: translateY(calc(calc(-13.1875rem * 0.5 + -13.1875vw * 0.5) + calc(4.32rem * 0.5 + 4.32vw * 0.5)));
 }
 
+.mob {
+    display: none;
+}
+
+.desk {
+    display: flex;
+}
+
+.arrows {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.slider {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: calc(4rem * 0.5 + 4vw * 0.5);
+}
+
+.imgSlider {
+    display: none;
+    margin: 0 auto;
+}
+
+.active {
+    display: block;
+}
+
+.sliderImgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 770px) {
     .cardTable {
         flex-direction: column;
     }
 
     .col2 {
-        transform: none;
+        transform: unset;
     }
 
     .textBlock {
         width: unset;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .desk {
+        display: none;
     }
 }

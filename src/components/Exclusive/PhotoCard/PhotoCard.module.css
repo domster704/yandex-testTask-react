@@ -10,8 +10,12 @@
     background: #DEDEDE;
 
     overflow: hidden;
+}
+
+.rot {
     transform: rotate(2deg);
 }
+
 
 .img {
     transform: rotate(-2deg);

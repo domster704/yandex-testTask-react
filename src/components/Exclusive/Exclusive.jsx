@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from "./Exclusive.module.css"
 
 import Caption from "../UIElements/Caption/Caption";
@@ -17,8 +17,30 @@ import margin from '../../style/margin.module.css'
 
 import PhotoCardExtra from "./PhotoCardExtra/PhotoCardExtra";
 import YandexText from "../UIElements/YandexText/YandexText";
+import YandexArrowButton from "./YandexArrowButton/YandexArrowButton";
 
 const Exclusive = () => {
+    let [active, setActive] = useState([1, 0, 0, 0]);
+
+    const handlerClickNext = () => {
+        let copyActive = [0, 0, 0, 0];
+        copyActive[active.indexOf(1) + 1] = 1;
+        setActive(copyActive);
+    }
+
+    const handlerClickBack = () => {
+        let copyActive = [0, 0, 0, 0];
+        copyActive[active.indexOf(1) - 1] = 1;
+        setActive(copyActive);
+    }
+
+    let clip = <PhotoCardExtra imgSrc={clipImg}
+                               right={-4}
+                               top={-6.5}
+                               shadowColor={"#C1A4FF"}
+                               width={14}
+                               height={14 * 696 / 598}/>
+
     return (
         <div className={margin.mainBlockMarginBottom}>
             <Caption>Эксклюзивный доступ к событиям Самокатов</Caption>
@@ -29,7 +51,7 @@ const Exclusive = () => {
                     Attaque de Panique</YandexText>
             </div>
 
-            <div className={s.cardTable}>
+            <div className={s.cardTable + " " + s.desk}>
                 <div className={s.col + " " + s.col1}>
                     <PhotoCard imgSrc={imgExclusive1}>
                         <PhotoCardExtra imgSrc={geoImg}
@@ -58,6 +80,38 @@ const Exclusive = () => {
                                         width={30}
                                         height={30 * 696 / 598}/>
                     </PhotoCard>
+                </div>
+            </div>
+            <div className={s.mob}>
+                <div className={s.slider}>
+                    <div className={s.sliderImgBlock}>
+                        <div className={s.imgSlider + " " + (active[0] === 1 ? s.active : "")}>
+                            <PhotoCard imgSrc={imgExclusive1} rot={false}>
+                                {clip}
+                            </PhotoCard>
+                        </div>
+                        <div className={s.imgSlider + " " + (active[1] === 1 ? s.active : "")}>
+                            <PhotoCard imgSrc={imgExclusive2} rot={false}>
+                                {clip}
+                            </PhotoCard>
+                        </div>
+                        <div className={s.imgSlider + " " + (active[2] === 1 ? s.active : "")}>
+                            <PhotoCard imgSrc={imgExclusive3} rot={false}>
+                                {clip}
+                            </PhotoCard>
+                        </div>
+                        <div className={s.imgSlider + " " + (active[3] === 1 ? s.active : "")}>
+                            <PhotoCard imgSrc={imgExclusive4} rot={false}>
+                                {clip}
+                            </PhotoCard>
+                        </div>
+                    </div>
+                    <div className={s.arrows}>
+                        <YandexArrowButton direction={"left"} index={active.indexOf(1)} count={active.length}
+                                           handler={handlerClickBack}/>
+                        <YandexArrowButton direction={"right"} index={active.indexOf(1)} count={active.length}
+                                           handler={handlerClickNext}/>
+                    </div>
                 </div>
             </div>
         </div>

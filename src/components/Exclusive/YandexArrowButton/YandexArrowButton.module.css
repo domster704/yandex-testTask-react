@@ -1,0 +1,8 @@
+.block {
+    width: 3rem;
+    height: 3rem;
+}
+
+.block:hover {
+    cursor: pointer;
+}
